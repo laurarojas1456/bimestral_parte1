@@ -1,11 +1,15 @@
-# Bucle While
+x = 1
 
-import math
+while x<3:
+    print(x)
+    x+=1
 
-numero = int(input("Digite un numero: ")
+print("Fin.")
 
-while numero<0):
-print("Error -> Deberia ser un numero positivo")
-numero = int(input("Digite un numero: "))
+#Ejemplo 2
 
-print(f"/nSu raiz cuadrada es: {(math.sqrt(numero)):.2f}")
+x=0
+while x<1000:
+    print("mazamorra")
+    x+=1
+    
